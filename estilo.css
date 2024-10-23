@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabeçalho{
+     
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 2px;
+    box-shadow: 0px 3px 5px rgb(87, 84, 84);
+}
+
+header header h1{
+    color: white;
+    padding-left: 20px;
+}
+
+header footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+}
+
+header footer a{
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+header footer a:hover, main nav ul li:hover{
+    background-color: white;
+    color: green;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    margin-top: 4px;
+}
+main nav{
+    background: linear-gradient(rgba(9, 101, 177, 0.705),rgba(154, 12, 173, 0.747));
+    color: aliceblue;
+    padding-right: 10px;
+    width: 250px;
+    box-shadow: 3px 0px 4px rgb(112, 102, 102);
+    z-index: 10;
+}
+
+main nav ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+main nav ul li{
+    padding:10px;
+}
+
+main section {
+    margin-left: 2px;
+    background-color:rgb(247, 247, 247);
+    width: 100%;
+}
+
+main section h2 {
+    margin-left: 20px;
+    color: rgb(15, 61, 43);
+}
+
+.tabela{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.funcoes{
+    overflow: scroll;
+}
+
+.tabela div{
+    margin: 3px;
+    text-align: center;
+}
+
+.tabela div:nth-child(even){
+    background-color: rgb(228, 240, 238);
+}
+
+.tabela div:nth-child(odd){
+    background-color: rgb(229, 233, 229);
+}
+
+.tabela div:hover{
+    background-color: rgb(82, 83, 83);
+    color: aliceblue;
+}
+
+
+.titulofuncao{
+    color: inherit;
+    margin-top: 20px;
+    background-color: inherit;
+}
+
+.rodapédapagina{
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color: gray;
+    height: 300px;
+}
+
+.sair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
