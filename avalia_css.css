@@ -1,6 +1,9 @@
 #tabelalista{
 display:flex;
 flex-direction:row;
+}
+
+#tabelalista li{
 list-style-type: none;
 }
 
