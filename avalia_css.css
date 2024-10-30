@@ -1,7 +1,7 @@
 #tabelalista{
 display:flex;
 flex-direction:row;
-text-decoration:none;
+text-decoration: none;
 width:600px;
 }
 
