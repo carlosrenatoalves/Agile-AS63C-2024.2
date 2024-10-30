@@ -2,5 +2,9 @@
 display:flex;
 flex-direction:row;
 text-decoration:none;
-width:inherit;
+width:100%;
+}
+
+#tabela{
+width:100%;
 }
