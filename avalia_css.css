@@ -5,6 +5,7 @@ flex-direction:row;
 
 #tabelalista li{
 list-style-type: none;
+padding-left:30px;
 }
 
 #tabela{
