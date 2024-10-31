@@ -20,3 +20,5 @@ Sistema destinado ao gerenciamento de alunos do ensino fundamental, que tem como
 - Cadastro
 - Gerencimanento de frequência
 - Gerenciamento de notas
+
+<a href="Prototipação/index.html">Clique aqui para ir para o Sistema</a>
