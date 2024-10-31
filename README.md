@@ -5,7 +5,7 @@ AS63C - Desenvolvimento Ágil - N13 (2024_02)
 
 <h2>Integrantes:</h2>
 <ol>
-  <li><a href="https://github.com/AbhimaSi">Abhimael Sidney Setni Rogatti</a>/li>
+  <li><a href="https://github.com/AbhimaSi">Abhimael Sidney Setni Rogatti</a></li>
   <li><a href="https://github.com/carlosrenatoalves">Carlos Renato Alves de Oliveira</a>   </li>
   <li><a href="https://github.com/Yuugenbrose">Davi Peres Gomes Leite Barreto</a></li>
   <li><a href="https://github.com/GuilhermeEijiY">Guilherme Eiji Yoshida</a></li>
