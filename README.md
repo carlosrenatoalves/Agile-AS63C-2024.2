@@ -1,4 +1,4 @@
-<h1>Grupo Agile</h1>   <img src="logo.png">
+<h1>Grupo Agile</h1>   <img src="logo.png" width=200 height=200>
 
 <h2>Disciplina</h2>
 AS63C - Desenvolvimento Ágil - N13 (2024_02)
