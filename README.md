@@ -1,4 +1,4 @@
-<img src="logo.png" width=200 height=200>
+<img src="logo.png">
 <h1>Grupo Agile</h1>   
 
 <h2>Disciplina</h2>
