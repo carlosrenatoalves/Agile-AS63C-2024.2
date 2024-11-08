@@ -1,0 +1,43 @@
+
+
+req:1
+
+    cadastrar o aluno;
+
+ req2:
+
+    acessar dados do aluno
+
+req3:
+    lançar as notas (notas não deverão ser maior que 100 ou negativo)
+    lançar nota por turma 
+    clica-se no nome do aluno e inserir a nota
+
+req4:
+    vizualizar turma
+
+req5:
+    ter dois perfis : diretor e professor;
+
+req6: 
+    editar dados do aluno
+
+req7: 
+    inserir e editar frequencia 
+
+req8:
+    justificar falta    
+
+req9 : 
+     mostrar calendário
+
+req10:
+
+    o professor somente pode vizualizar as suas turmas
+
+req11: 
+
+        professor pode ser vinculado a varia escolas
+        cada escola tem 1 diretor
+        uma turma pode ter mais do que 1 professor
+        
