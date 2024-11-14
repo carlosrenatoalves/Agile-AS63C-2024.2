@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            height:700px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(images/background.png);
+            background-size: cover;
+            background-position:center;
+        }
+        form{
+            width: fit-content;
+            padding: 50px 30px  100px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            background-color: rgb(231, 224, 238);
+            color: rgb(8, 8, 8);
+            border-radius: 10px;
+            filter: opacity(60%);
+        }
+
+        label{
+            align-self: self-start;
+            width: 200px;
+        }
+
+        .entrada{
+            height:3em;
+            width: 300px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        #botao{
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(5, 187, 5);
+            color: aliceblue;
+            border-radius: 10px;
+        }
+
+        #botao:hover{
+             background-color: rgb(232, 248, 232);
+             color: rgb(10, 20, 10);
+             border-style: solid;
+             border-color: rgb(6, 63, 23);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="">
+
+        <h1>SGE</h1>
+        
+        <label for="">Nome:</label>
+        <input type="text" class="entrada">
+        <label for="">Senha:</label>
+        <input type="text" class="entrada">
+
+        <button id="botao">Entrar</button>
+
+        <h6>Agile Systems Inc.</h6>
+    </form>
+
+</body>
+</html>
