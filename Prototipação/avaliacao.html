@@ -49,38 +49,59 @@
                     <section class="colunas_cadastro">
                         <form action="" class="elementosForm">
 
-                            <label for="Turma">Turma:</label>
-                            <input type="list" list="turmas" id="Turma">
+                            <label for="turma">Turma:</label>
+                            <input type="list" list="turmas" id="turma">
 
                             <datalist id="turmas">
                                 <option value="1º ano A">
-                                <option value="2º ano A"">
-                                 <option value=" 3º ano A"">
-                                <option value="4º ano A"">
+                                <option value="2º ano A">
+                                <option value="3º ano A">
+                                <option value="4º ano A">
+                                <option value="5º ano A">
+                                <option value="1º ano B">
+                                <option value="2º ano B">
+                                <option value="3º ano B">
+                                <option value="4º ano B">
+                                <option value="5º ano B">
                             </datalist>
 
-                                    <label for=" CGE">CGE:</label>
-                                    <input type="text" id="CGE">
+                            <label for="nome">Nome completo do(a) estudante:</label>
+                            <input type="text" id="nome">
 
-                                    <label for="Nome Completo do(a) Estudante:">Nome:</label>
-                                    <input type="text" id="nome">
+                            <div class="container"> 
+                                <h1>Calculadora de média</h1> 
+                                <div class="input-field"> 
+                                    <label for="nota1">Nota 1:</label> 
+                                    <input type="text" id="nota1"> 
+                                </div> 
+                                <div class="input-field"> 
+                                    <label for="nota2">Nota 2:</label> 
+                                    <input type="text" id="nota2"> 
+                                </div> 
+                                <div class="input-field"> 
+                                    <label for="nota3">Nota 3:</label> 
+                                    <input type="text" id="nota3"> 
+                                </div> <div class="input-field"> 
+                                    <label for="nota4">Nota 4:</label> 
+                                    <input type="text" id="nota4"> 
+                                </div> <div class="input-field"> 
+                                    <label for="nota5">Nota 5:</label> 
+                                    <input type="text" id="nota5"> 
+                                </div> <div class="buttons"> 
+                                    <button onclick="calcularMedia()">Calcular</button> 
+                                    <button onclick="limparCampos()">Limpar</button> 
+                                </div> <div class="input-field"> 
+                                    <label for="media">Média:</label> 
+                                    <input type="number" id="media" readonly> 
+                                </div> 
+                                </div>
                         </form>
 
                     </section>
 
-                    <section id="tabela">
-                        <ul id="tabelalista">
-                            <li> CGE </li>
-                            <li> Nome </li>
-                            <li>Turma</li>
-                            <li>Ações</li>
-                        </ul>
-                    </section>
+                    
+                    
 
-                    <form action="" class="botao">
-                        <button> Pesquisar </button>
-                        <button> Limpar </button>
-                    </form>
 
 
 
@@ -95,5 +116,5 @@
         Esse Sistema foi desenvolvido por:
     </footer>
 </body>
-
+<script src="avalia_js.js"></script>
 </html>

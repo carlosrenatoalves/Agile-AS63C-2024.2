@@ -12,3 +12,7 @@ padding-left:30px;
   width:500px;
   
 }
+
+.container { text-align: center; } 
+.input-field { margin: 5px; } 
+.buttons { margin-top: 10px; }
