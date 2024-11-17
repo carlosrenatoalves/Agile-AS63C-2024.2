@@ -13,7 +13,7 @@ AS63C - Desenvolvimento Ágil - N13 (2024_02)
   <li><a href="https://github.com/Yuugenbrose">Davi Peres Gomes Leite Barreto</a></li>
   <li><a href="https://github.com/GuilhermeEijiY">Guilherme Eiji Yoshida</a></li>
   <li><a href="https://github.com/Matheus-Barreto06">Matheus Peres Gomes Leite Barreto</a> </li>
-  <li><a href="https://github.com/ncqbrbs">Natália Cuqui Barbosaa</a></li>
+  <li><a href="https://github.com/ncqbrbs">Natália Cuqui Barbosa</a></li>
 </ol>
 
 <h2>Projeto</h2>
