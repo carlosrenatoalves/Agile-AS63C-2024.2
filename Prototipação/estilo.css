@@ -120,7 +120,7 @@ main section h2 {
     justify-content: space-between;
 }
 
-.navega_lado{
+.navega_lado, .sair{
     color:white;
     text-decoration: none;
 }
