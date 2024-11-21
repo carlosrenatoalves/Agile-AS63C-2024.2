@@ -4,7 +4,7 @@ body{
 
 .cabeçalho{
      
-    background-color: green;
+    background: linear-gradient(rgba(11, 128, 60, 0.705),rgba(3, 116, 22, 0.747));
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -43,7 +43,7 @@ main{
     margin-top: 4px;
 }
 main nav{
-    background: linear-gradient(rgba(9, 101, 177, 0.705),rgba(154, 12, 173, 0.747));
+    background: linear-gradient(rgba(11, 128, 60, 0.705),rgba(6, 150, 30, 0.747));
     color: aliceblue;
     padding-right: 10px;
     width: 250px;
