@@ -1,10 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-.cabeçalho{
+.cabeçalho_h1{
      
-    background: linear-gradient(rgba(11, 128, 60, 0.705),rgba(3, 116, 22, 0.747));
+    background-color:#78B3CE;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -12,18 +13,18 @@ body{
     box-shadow: 0px 3px 5px rgb(87, 84, 84);
 }
 
-header header h1{
+#nome_do_sistema_header{
     color: white;
     padding-left: 20px;
 }
 
-header footer {
+#menu_topo_footer {
     display: flex;
     flex-direction: row;
     padding-left: 200px;
 }
 
-header footer a{
+#menu_topo_footer a{
     padding:10px;
     color: white;
     text-decoration: none;
@@ -31,19 +32,22 @@ header footer a{
     font-size: 16px;
 }
 
-header footer a:hover, main nav ul li:hover{
-    background-color: white;
-    color: green;
+#menu_topo_footer a:hover,#lista_links_ul li:hover{
+    background-color: #F96E2A;
+    outline: 2px solid #ffffff;
+    outline-offset: -2px;
+    border-radius:5px ;
 }
 
-main{
+#principal_main{
     display: flex;
     flex-direction: row;
     height: 600px;
     margin-top: 4px;
 }
-main nav{
-    background: linear-gradient(rgba(11, 128, 60, 0.705),rgba(6, 150, 30, 0.747));
+
+#links_lateral_nav{
+    background-color:#F96E2A;
     color: aliceblue;
     padding-right: 10px;
     width: 250px;
@@ -51,52 +55,58 @@ main nav{
     z-index: 10;
 }
 
-main nav ul{
+#lista_links_ul{
     list-style-type: none;
     padding-left: 10px;
 }
 
-main nav ul li{
+#lista_links_ul li{
     padding:10px;
 }
 
-main section {
-    margin-left: 2px;
-    background-color:rgb(247, 247, 247);
-    width: 100%;
-}
-
-main section h2 {
+.funcoes h2 {
     margin-left: 20px;
     color: rgb(15, 61, 43);
 }
 
 .tabela{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 300px 300px 300px;
+    margin-left: 2px;
+    background-color:rgb(247, 247, 247);
+    width: 100%;
 }
 
 .funcoes{
+    width: 100%;
     overflow: scroll;
 }
 
 .tabela div{
     margin: 3px;
     text-align: center;
+    background-color: #FBF8EF;
+    border: 1px solid #F96E2A ;
+    border-radius: 5px;
 }
 
+/*
 .tabela div:nth-child(even){
-    background-color: rgb(228, 240, 238);
+    background-color: #FBF8EF;
 }
 
 .tabela div:nth-child(odd){
-    background-color: rgb(229, 233, 229);
+    background-color: #C9E6F0;
 }
+*/
 
 .tabela div:hover{
-    background-color: rgb(82, 83, 83);
-    color: aliceblue;
+    background-color: #F96E2A;
+    color: white;
+    outline: 2px  white solid;
+    outline-offset: -5px;
+    border-radius: 10px;
 }
 
 
@@ -125,5 +135,9 @@ main section h2 {
     text-decoration: none;
 }
 
-
+input:hover{
+    color: white;
+    background-color: #c4e4f3;
+    border-radius: 5px;
+}
 
