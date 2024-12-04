@@ -7,12 +7,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="estilo_cadastro.css">
+    <script>
+        function verificarCampos(){
+            var racasSelecionadas = []
+
+            if(document.getElementById("Amarela").checked){
+                racasSelecionadas.push("Amarela")
+            }
+            if(document.getElementById("Branca").checked){
+                racasSelecionadas.push("Branca")
+            }
+            if(document.getElementById("Preta").checked){
+                racasSelecionadas.push("Preta")
+            }
+            if(document.getElementById("Indígena").checked){
+                racasSelecionadas.push("Indígena")
+            }
+            if(document.getElementById("Parda").checked){
+                racasSelecionadas.push("Parda")
+            }
+            if(document.getElementById("naoDeclara").checked){
+                racasSelecionadas.push("naoDeclara")
+            }
+
+            if(racasSelecionadas.length === 0){
+                alert("Por favor selecione alguma das opções de raça.")
+                return false
+            }
+
+        }
+    </script>
 </head>
 
 <body>
     <header class="cabeçalho_h1">
         <header id="nome_do_sistema_header">
-            <h1><a href="index.html"><img src="logo_pagina.png" width="50" height="50"></a> Sistema de Gerenciamento de Alunos</h1>
+            <h1>Sistema de Gerenciamento de Alunos</h1>
         </header>
         <footer id="menu_topo_footer">
             <a href="index.html"> Página Inicial </a>
@@ -41,8 +71,8 @@
 
         <section class="formulario">
 
-            <section id="titulo">
-                <h1> <img src="register.png" alt="" width="50" height="50"> Formulário de Cadastro </h1>
+            <section>
+                <h1> Formulário de Cadastro </h1>
             </section>
 
            <section class="colunas_cadastro">
@@ -133,6 +163,8 @@
                         </span>
 
                     </section>
+                    <button type="submit" onclick="verificarCampos()"> Salvar</button>
+                    <button> Limpar </button>
 
                 <br>
                 <br>    
@@ -141,10 +173,9 @@
 
             </form>
 
-            <form action="" class="botao">
-                <button type="submit"> Salvar</button>
-                <button> Limpar </button>
-            </form>
+            
+                
+            
            </section>
 
 
