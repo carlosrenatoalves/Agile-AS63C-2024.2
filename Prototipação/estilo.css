@@ -171,6 +171,7 @@ input:hover{
 #menu_dropdown {
     position: absolute;
     top: 70px;
+    right: 0;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -196,7 +197,8 @@ input:hover{
 
 #menu_dropdown ul {
     list-style: none;
-
+    padding: 0;
+    margin: 0;
 }
 
 #menu_dropdown ul li {
