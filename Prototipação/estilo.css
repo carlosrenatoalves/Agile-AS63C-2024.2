@@ -130,6 +130,12 @@ body{
     justify-content: space-between;
 }
 
+.sair img {
+    width: 16px; 
+    height: 16px; 
+    vertical-align: middle; 
+}
+
 .navega_lado, .sair{
     color:white;
     text-decoration: none;
@@ -139,5 +145,77 @@ input:hover{
     color: white;
     background-color: #c4e4f3;
     border-radius: 5px;
+}
+
+#perfil {
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#icone_perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#icone_perfil:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#menu_dropdown {
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    display: none;
+}
+
+#menu_dropdown .dropdown_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu_dropdown .dropdown_header .dropdown_foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#menu_dropdown ul {
+    list-style: none;
+
+}
+
+#menu_dropdown ul li {
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#menu_dropdown ul li:last-child {
+    border-bottom: none;
+}
+
+#menu_dropdown ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: background 0.3s;
+}
+
+#menu_dropdown ul li a:hover {
+    background-color: #f5f5f5;
 }
 
