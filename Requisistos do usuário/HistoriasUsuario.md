@@ -20,7 +20,7 @@
                 </ol>
             </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">-</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF01</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US02</td>
@@ -33,7 +33,7 @@
                 </ol>
             </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">-</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF03</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US03</td>
@@ -47,7 +47,7 @@
                 </ol>
             </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">-</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF05</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US04</td>
@@ -61,7 +61,7 @@
                 </ol>
             </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">-</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF02</td>
         </tr>
     </tbody>
 </table>
