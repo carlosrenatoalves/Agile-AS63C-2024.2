@@ -76,5 +76,18 @@
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF04</td>
         </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US06</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Eu, como usuário regular, desejo visualizar rapidamente as funções mais utilizadas, para que eu possa acessar as opções mais frequentes sem perder tempo.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">
+                <ol>
+                    <li>O sistema deve listar automaticamente as funções mais acessadas pelo usuário</li>
+                    <li>Deve ser possível personalizar quais funções aparecem nesta seção</li>
+                    <li>Cada função deve ter um atalho clicável para facilitar o acesso</li>
+                </ol>
+            </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Baixa</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF06</td>
+        </tr>
     </tbody>
 </table>
