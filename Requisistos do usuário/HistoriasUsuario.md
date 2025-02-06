@@ -63,5 +63,18 @@
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Média</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF02</td>
         </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US05</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Eu, como usuário regular, desejo consultar as turmas de alunos, para que eu possa visualizar quais estudantes pertencem a cada turma.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">
+                <ol>
+                    <li>O sistema deve exibir uma lista de turmas disponíveis</li>
+                    <li>Deve ser possível visualizar os alunos matriculados em cada turma</li>
+                    <li>A busca por turma deve permitir filtros por série e turno</li>
+                </ol>
+            </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Alta</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">RF04</td>
+        </tr>
     </tbody>
 </table>
