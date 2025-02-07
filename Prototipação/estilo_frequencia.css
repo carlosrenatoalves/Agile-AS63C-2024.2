@@ -1,0 +1,77 @@
+.cont{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#tab{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(201, 201, 201);
+    overflow: auto;
+}
+
+#tab th{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    width: 150px;
+}
+
+.colunas{
+    display: flex;
+    flex-direction: row;
+}
+
+.botao{
+    left: 980px;
+}
+
+
+
+.botao *{
+    margin-left: 5px;
+    background-color: rgb(74, 189, 109);
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;;
+    font-size: 20px;
+}
+
+.botao *:hover{
+    background-color: rgb(37, 90, 53);
+}
+
+.elementosForm *{
+    margin-top: 15px;
+   
+}
+
+.elementosForm{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+}
+
+#checkCaixa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+
+
+
+
+
+

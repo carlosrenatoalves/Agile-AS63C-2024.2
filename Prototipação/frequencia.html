@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequencia</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo_frequencia.css">
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <header class="cabeçalho_h1">
+        <header id="nome_do_sistema_header">
+            <h1>Sistema de Gerenciamento de Alunos</h1>
+        </header>
+        <footer id="menu_topo_footer">
+            <a href="index.html"> Página Inicial </a>
+            <a href="cadastro.html"> Cadastro </a>
+            <a href=""> Turmas</a>
+            <a href="frequencia.html"> Frequência</a>
+            <a href="avaliacao.html"> Avaliação</a>
+            <a href="login.html" class="sair">Sair <img src="sair_icone.svg" alt="sair"> </a>
+            <div id="perfil">
+                <img src="icon.png" alt="Perfil" id="icone_perfil">
+                <div id="menu_dropdown" class="dropdown_oculto">
+                    <div class="dropdown_header">
+                        <img src="icon.png" alt="Foto do Usuário" class="dropdown_foto">
+                        <span>Usuário</span>
+                    </div>
+                    <ul>
+                        <li><a href="#">Editar Perfil</a></li>
+                        <li><a href="#">Configurações</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                        <li><a href="login.html" class="sair">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </ul>
+        </footer>
+    </header>
+
+    <main id="principal_main">
+
+        <nav id="links_lateral_nav">
+            <ul id="lista_links_ul">
+                <a href="cadastro.html" class="navega_lado"><li>Cadastro de alunos</li></a>
+                <a href="frequencia.html" class="navega_lado"><li> Frequência</li></a>
+                <a href="#" class="navega_lado"><li>Falta Abonada</li></a>
+                <a href="avaliacao.html" class="navega_lado"><li>Lançar nota</li></a>
+                <a href="turmas.html" class="navega_lado"><li>Consultar Turmas</li></a>
+                <a href="#" class="navega_lado"><li>Calendário</li></a>
+                <a href="#" class="navega_lado"><li>Mostrar mais +</li></a>
+                <a href="login.html"><li class="sair">Sair <img src="sair_icone.svg" alt=" sair"> </li></a>
+        </nav>
+
+        <div class="cont">
+            <section class="formulario">
+                <section>
+                    <h1> Frequência </h1>
+                </section>
+    
+               <section class="colunas">
+                    <form action="" class="elementosForm">
+        
+                        <label for="turma">Turma*:</label>
+                        <input type="text" id="turma" required>
+        
+                        <label for="professor">Professor*:</label>
+                        <input type="text" id="professor" required>
+        
+                        <section id="alunos">
+                            <h3>Alunos*:</h3>
+        
+                            <select name="aluno" id="aluno" required>
+                                <option value="" selected>Selecione um Aluno</option>
+                                <option value="teste">Lorem Ipsum Dolor Sit Amet</option>
+                            </select>
+                            
+                        <br>
+                        <br>    
+                        <span style="color:red;"> *Campos obrigatórios </span>
+                        </section>
+                            <section class="botao">
+                                <button type="submit"> Consultar </button>
+                                <button> Limpar </button>
+                            </section>
+                    </form>
+               </section>
+    
+    
+    
+    
+            </section>
+    
+            <section id="tab">
+                <table name="tabela" id="tabela">
+                    <tr>
+                        <th>Nome</th>
+                        <th>CGM</th>
+                        <th>Aulas totais</th>
+                        <th>Número de faltas</th>
+                        <th>Presença (%)</th>
+                    </tr>
+                    <tr>
+                        <td>Lorem Ipsum</td>
+                        <td>1111111</td>
+                        <td>60</td>
+                        <td>30</td>
+                        <td>50%</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodapédapagina">
+        Esse Sistema foi desenvolvido por:
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
